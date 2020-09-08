@@ -10,7 +10,7 @@ import numpy as np
 
 
 #read image section
-image = img_as_float(rgb2gray(imread('/Users/hazard/Library/Preferences/PyCharmCE2019.3/scratches/Tester_/Tester24/2-12.png')))
+image = img_as_float(rgb2gray(imread('imageSrc')))
 image = misc.imresize(image,64.0 / image.shape[0])
 
 #spectral Residual
